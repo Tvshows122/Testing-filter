@@ -62,7 +62,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://youtube.com/shorts/uZx0TqgfZ_Q?si=c5
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello USERS 🎉')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', ''))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+a3mpCoa4n_M0OWY1')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Contact_infinity_bot')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
