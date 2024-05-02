@@ -668,8 +668,8 @@ async def send_all(bot, userid, files, ident, chat_id, user_name, query):
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
-                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='GRP_LNK'),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='CHNL_LNK')
+                                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/Contact_infinity_bot'),
+                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url='https://t.me/infinitybm')
                                 ]
                             ]
                         )
