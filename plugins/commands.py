@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[                                       
-                    InlineKeyboardButton('SUPPORT', url="https://t.me/TG_SUPPORT_GROUP"), 
-                    InlineKeyboardButton('UPDATES', url="https://t.me/TG_UPDATES!")
+                    InlineKeyboardButton('SUPPORT', url="https://t.me/Contact_infinity_bot"), 
+                    InlineKeyboardButton('UPDATES', url="https://t.me/infinitybm")
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
